@@ -317,7 +317,7 @@ footer {
   display: flex;
 }
 
-footer, #menu {
+footer, #menu .product-box-right{
   font-family: 'Roboto', serif;
   font-weight: normal;
   letter-spacing: 0.2rem;
@@ -920,7 +920,7 @@ button {
   }
 
   /*swiper*/
-  
+
   .swiper {
     width: 90%;
     padding-bottom: 5%;
