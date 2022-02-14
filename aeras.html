@@ -19,11 +19,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 </head>
 
 <body>
+
   <div id="wrapper">
-    <header class="page-header">
+    <!-- <header class="page-header">
       <h1><a href="index.html">Megumi</a></h1>
 
       <div class="drawer">
@@ -39,8 +41,11 @@
           </ul>
         </nav>
       </div>
-    </header>
-
+    </header> -->
+    <div id="header-outer">
+      <!-- インクルード -->#header-outer
+    </div>
+ 
     <div class="sub-wrapper">
       <div class="breadcrumb"></div>
       <div class="container">
@@ -108,5 +113,9 @@
       <small>&copy;2021 Megumi</small>
     </p>
   </footer>
+  <script src="js/include-html.js"></script>
+  <script>
+    include_html('#header-outer','header.html',{part_id: 'header-inner'});
+  </script>
 </body>
 </html>
