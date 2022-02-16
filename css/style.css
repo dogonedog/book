@@ -301,7 +301,6 @@ padding: 10px;
   height: 16px;  
 }
 
-
 /* footer */
 
 footer {
@@ -353,6 +352,16 @@ footer, #menu .product-box-right{
 
 .link-area li, .sns-area li {
   padding: 0 10px;
+}
+
+
+.breadcrumb .inner {
+  display: flex;
+}
+
+.breadcrumb .inner li{
+  padding-right: 10px;
+  font-size: 1.2rem;
 }
 
 /* product */
