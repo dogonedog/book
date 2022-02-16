@@ -31,6 +31,7 @@ body {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -170,6 +171,13 @@ h1, h2, #price_box {
 .d-hidden {
   display: none;
 }
+
+/*anchor*/
+
+#web, #illustration, #flash, #pamphlet, #application  {
+  padding-top: 100px;
+}
+
 
 /* swiper */
 .slide {
