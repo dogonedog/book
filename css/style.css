@@ -108,6 +108,7 @@ nav {
   width: 100%;
   top: 0;
   z-index: 50;
+  background: rgba(255,255,255,0.6);
 }
 
 .main-nav {
@@ -357,11 +358,13 @@ footer, #menu .product-box-right{
 
 .breadcrumb .inner {
   display: flex;
+  margin: 3% 10% 0%;
 }
 
 .breadcrumb .inner li{
-  padding-right: 10px;
+  padding-right: 2%;
   font-size: 1.2rem;
+  margin-left: 2%;
 }
 
 /* product */
@@ -1066,6 +1069,11 @@ button {
   display: block;
 }
 
+.product-gallery {
+  display: flex;
+  justify-content: center;
+}
+
 .product-box-left, .product-box-right {
   width: 100%;
 }
@@ -1075,6 +1083,10 @@ button {
     gap: 26px;
     grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
    }
+
+#pamphlet .grid-item img, #application .grid-item img{
+  max-width: 50%;
+  }
 
   #footer {
     text-align: center;
