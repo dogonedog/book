@@ -325,7 +325,7 @@ footer {
   display: flex;
 }
 
-footer, #menu .product-box-right{
+footer, #menu, .product-box-right{
   font-family: 'Roboto', serif;
   font-weight: normal;
   letter-spacing: 0.2rem;
