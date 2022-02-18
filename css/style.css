@@ -122,6 +122,10 @@ nav {
   letter-spacing: 0.2rem;
 }
 
+.swiper-wrapper {
+    padding-bottom: 15px;
+}
+
 h1, h2, #price_box {
   font-family: 'Roboto', serif;
   font-weight: normal;
