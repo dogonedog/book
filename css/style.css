@@ -326,7 +326,6 @@ footer {
 }
 
 footer, #menu, .breadcrumb, .product-box-right{
-  /*font-family: 'Roboto', serif;*/
   font-weight: normal;
   letter-spacing: 0.2rem;
   margin-top: auto;
@@ -956,7 +955,7 @@ button {
   /* ハンバーガーアイコンの設置スペース */
   .drawer-open {
     width: 35px;
-    height: 35px;
+    height: 8px;
     /*background-color: #ccc;*/
     position: fixed;
     /* ボックスを固定表示 */
@@ -967,6 +966,7 @@ button {
     z-index: 100;
     /* 重なり順を一番上に */
     cursor: pointer;
+    padding-top: 3px;
   }
 
   /* ハンバーガーメニューのアイコン */
@@ -1010,7 +1010,7 @@ button {
   .main-nav {
     flex-direction: column;
     position: fixed;
-    background-color: rgba(102, 102, 102, .8);
+    background-color: rgba(214, 214, 214, .8);
     width: 100%;
     height: 100%;
     top: 3px;
