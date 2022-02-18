@@ -20,7 +20,7 @@ body, html {
 }
 
 body {
-  font-family: 'Helvetica Neue', 'Zen Maru Gothic', system-ui, -apple-system, sans-serif;
+  font-family: 'Roboto', 'Zen Maru Gothic', system-ui, -apple-system, sans-serif;
   font-size: 1.6rem;
   line-height: 2;
   background-color: #fff;
@@ -325,8 +325,8 @@ footer {
   display: flex;
 }
 
-footer, #menu, .product-box-right{
-  font-family: 'Roboto', serif;
+footer, #menu, .breadcrumb, .product-box-right{
+  /*font-family: 'Roboto', serif;*/
   font-weight: normal;
   letter-spacing: 0.2rem;
   margin-top: auto;
@@ -1081,7 +1081,7 @@ button {
   .grid {
     display: grid;
     gap: 26px;
-    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
    }
 
 #pamphlet .grid-item img, #application .grid-item img{
