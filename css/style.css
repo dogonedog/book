@@ -361,8 +361,8 @@ footer, #menu, .breadcrumb, .product-box-right{
 }
 
 .breadcrumb .inner li{
-  padding-right: 2%;
-  font-size: 0.8rem;
+  /* padding-right: 2%; */
+  font-size: 1rem;
   margin-left: 1%;
 }
 
@@ -1065,18 +1065,18 @@ button {
 
   /* product */
 
-#product {
+  #product {
   display: block;
-}
+  }
 
-.product-gallery {
+  .product-gallery {
   display: flex;
   justify-content: center;
-}
+  }
 
-.product-box-left, .product-box-right {
+  .product-box-left, .product-box-right {
   width: 100%;
-}
+  }
 
   .grid {
     display: grid;
@@ -1084,8 +1084,14 @@ button {
     grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
    }
 
-#pamphlet .grid-item img, #application .grid-item img{
+  #pamphlet .grid-item img, #application .grid-item img{
   max-width: 50%;
+  }
+
+  .breadcrumb .inner li{
+  padding-right: 2%;
+  font-size: 1rem;
+  margin-left: 1%;
   }
 
   #footer {
