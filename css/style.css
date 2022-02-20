@@ -286,6 +286,10 @@ footer {
   display: flex;
 }
 
+.breadcrumb{
+  margin-left: 10px;
+}
+
 footer, #menu, .breadcrumb, .product-box-right{
   font-weight: normal;
   letter-spacing: 0.2rem;
@@ -317,7 +321,7 @@ footer, #menu, .breadcrumb, .product-box-right{
 
 .breadcrumb .inner {
   display: flex;
-  margin: 3% 10% 0%;
+  margin: 3% 2% 0%;
 }
 
 .breadcrumb .inner li{
