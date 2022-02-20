@@ -24,9 +24,6 @@ body {
   font-size: 1.6rem;
   line-height: 2;
   background-color: #fff;
-  /* display: flex;footer下部指定*/
-  /*flex-flow: column;footer下部指定*/
-  /*min-height: 100vh;footer下部指定 */
 }
 
 html {
@@ -115,17 +112,17 @@ nav {
   margin-top: 15px;
 }
 
-.page-header {
+/*.page-header {
   font-family: 'Roboto', serif;
   font-weight: normal;
   letter-spacing: 0.2rem;
-}
+}*/
 
 .swiper-wrapper {
     padding-bottom: 15px;
 }
 
-h1, h2, #price_box {
+h1, h2, #price_box, .page-header {
   font-family: 'Roboto', serif;
   font-weight: normal;
   letter-spacing: 0.2rem;
@@ -135,6 +132,13 @@ h1, h2, #price_box {
   font-family: 'Zen Maru Gothic', sans-serif;
   font-weight: normal;
   letter-spacing: 0.2rem;
+}
+
+.sentence {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-top: 50%;
 }
 
 .innerwrapper {
@@ -161,12 +165,7 @@ h1, h2, #price_box {
   padding: 5%;
 }
 
-.sentence {
-  font-family: 'Zen Maru Gothic', sans-serif;
-  font-size: 2rem;
-  line-height: 4rem;
-  margin-top: 50%;
-}
+
 
 .v-hidden {
   visibility: hidden;
@@ -253,44 +252,7 @@ h1, h2, #price_box {
   margin: auto;
 }
 
-/* .nav #prev{
-display: block;
-position: relative;
-padding: 10px;
-}
-
-.nav #prev ::after{
-    content: "";
-    display: block;
-    width: 16px;
-    height: 16px;
-    border-top: #000 1px solid;
-    border-right: #000 1px solid;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    position: absolute;
-    right: 10px;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-} */
-
-/* .next{
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 60px;
-}
-
-.prev{
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 100px;
-} */
-
-.prev1{
+/* .prev1{
   display: block;
   width: 16px;
   height: 16px;  
@@ -300,14 +262,13 @@ padding: 10px;
   display: block;
   width: 16px;
   height: 16px;  
-}
+} */
 
 /* footer */
 
 footer {
   text-align: center;
   margin: 0 auto;
-  /* background-color: #000; */
 }
 
 #footer {
@@ -342,7 +303,6 @@ footer, #menu, .breadcrumb, .product-box-right{
 }
 
 .copyright {
-  /*margin-top: -40px;*/
   padding-bottom: 10px;
 }
 
@@ -361,7 +321,6 @@ footer, #menu, .breadcrumb, .product-box-right{
 }
 
 .breadcrumb .inner li{
-  /* padding-right: 2%; */
   font-size: 1rem;
   margin-left: 1%;
 }
@@ -386,8 +345,6 @@ footer, #menu, .breadcrumb, .product-box-right{
 .sub-wrapper {
   width:100%;
   margin: 0 auto;
-  /* color: #fff; */
-  /* flex: 1;footer下部指定*/
 }
 
 .product-gallery {
@@ -632,188 +589,9 @@ iframe {
 --swiper-navigation-size: 30px;
 --swiper-navigation-color: #000000;
 --swiper-pagination-color: #000000;
-/* --swiper-pagination-bullet-size: 12px;
---swiper-pagination-bullet-width: 12px;
---swiper-pagination-bullet-height: 12px; */
 }
 
 
-/* order 
-
-#price_box {
-  font-size: 2.5rem;
-}
-
-#custom {
-  margin: 0 5%;
-}
-
-#form_box, #custom_box {
-  width: 50%;
-}
-
-#custom_box {
-  text-align: center;
-  margin-top: -5%;
-}
-
-#orderArea {
-  width: 70%;
-  margin-top: 30px;
-  text-align: right;
-}
-
-#custom_output {
-  max-width: 250px;
-  font-size: 0;
-  line-height: 0;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.custom_title {
-  margin: 4% 10% 0;
-}
-
-.output_img {
-  margin: 0 0 -10%;
-  padding: 0 0;
-}
-
-.buns_top_adjust {
-  z-index: 40;
-  position: relative;
-}
-
-.bacon_adjust {
-  margin-top: -20px;
-  z-index: 40;
-  position: relative;
-}
-
-.patty_adjust {
-  margin-top: -50px;
-}
-
-.cheese_adjust {
-  margin-top: -30px;
-  margin-bottom: -80px;
-  z-index: 10;
-  position: relative;
-}
-
-.lettuce_adjust {
-  margin-top: -40px;
-}
-
-.tomate_adjust {
-  margin-top: -30px;
-  margin-bottom: -40px;
-  position: relative;
-  z-index: 30;
-}
-
-.poteto_adjust {
-  margin-top: -30px;
-  margin-bottom: -60px;
-  position: relative;
-  z-index: 20;
-}*/
-
-/*
-#form_box input[type="checkbox"] {
-  display: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
-.form_wrapper {
-  display: flex;
-  margin: 3% 10% 6%;
-}
-
-#form_box input[type="checkbox"]+label {
-  cursor: pointer;
-  padding-left: 35px;
-  padding-right: 10px;
-  position: relative;
-}
-
-#form_box input[type="checkbox"]+label::before {
-  content: "";
-  position: absolute;
-  display: block;
-  box-sizing: border-box;
-  width: 20px;
-  height: 20px;
-  margin-top: -10px;
-  left: 0;
-  top: 50%;
-  border: 1px solid;
-  border-color: #585753;
-}
-
-#form_box input[type="checkbox"]:checked+label::after {
-  content: "";
-  position: absolute;
-  display: block;
-  box-sizing: border-box;
-  width: 18px;
-  height: 9px;
-  margin-top: -9px;
-  top: 50%;
-  left: 3px;
-  transform: rotate(-45deg);
-  border-bottom: 2px solid;
-  border-left: 2px solid;
-  border-color: #ffffff;
-}
-
-.button_box {
-  display: flex;
-}
-
-.reset_box {
-  display: flex;
-  justify-content: space-between;
-}
-
-#choice_box {
-  -top: 10%;
-}
-
-button {
-  appearance: none;
-  margin: 0;
-  padding: 0;
-  background: none;
-  border: none;
-  border-radius: 0;
-  outline: none;
-}
-
-.button {
-  position: relative;
-  display: block;
-  margin: 4rem 0 1rem 0;
-  padding: 0.3rem 0.8rem 0.5rem 0.8rem;
-  border: 1px solid;
-  border-color: #ffffff;
-  width: 100px;
-  font-size: 1.5rem;
-}
-*/
 
 /*上からフェードイン*/
 
@@ -906,9 +684,6 @@ button {
 
  #footer, .footer-left {
       flex-direction: column;
-    /* text-align: center;
-    margin: 0 auto;
-    font-size: 1.2rem; */
   }
  .link-area {
   justify-content: center;
@@ -950,7 +725,6 @@ button {
   .drawer-open {
     width: 35px;
     height: 8px;
-    /*background-color: #ccc;*/
     position: fixed;
     /* ボックスを固定表示 */
     top: 30px;
@@ -1076,7 +850,7 @@ button {
     display: grid;
     gap: 26px;
     grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
-   }
+  }
 
   #pamphlet .grid-item img, #application .grid-item img{
   max-width: 50%;
@@ -1122,63 +896,9 @@ button {
     width: 80%;
   }
 
-  /* form 
-  #order {
-    padding-top: 70px;
-  }*/
-
-  /* table.order {} 
-  table.order th, table.order td {
-    display: block;
-  }
-
-  label[for="in"], label[for="d"] {
-    display: block;
-  }
-
-  table.order {
-    width: 100%;
-  }
-
-  table.order td {
-    text-align: left;
-  }*/
-
   .copyright {
     margin-top: 0;
   }
-
-  /*custom
-  #custom {
-    margin: 32% 5% 0;
-    display: block;
-  }
-
-  #custom_box {
-    margin-top: 10%;
-  }
-
-  .button_box {
-    display: block;
-  }
-
-  .patty_adjust {
-    margin-top: -5px;
-  }
-
-  .bacon_adjust {
-    margin-bottom: -30px;
-  }
-
-  .buns_adjust {
-    margin-top: 7%;
-  }
-
-  .lettuce_adjust {
-    margin-top: -11px;
-    margin-bottom: -20px;
-  }*/
-
 
 /* footer */
 
