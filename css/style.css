@@ -904,7 +904,7 @@ button {
 
 @media (max-width: 700px) {
 
- #footer {
+ #footer, .footer-left {
       flex-direction: column;
     /* text-align: center;
     margin: 0 auto;
@@ -914,9 +914,10 @@ button {
   justify-content: center;
  }
 
- .link-area li:last-child{
-  padding-right: 0px;
+ .link-area li:first-child{
+  padding-leftt: 10px;
   }
+
 }
 
 
