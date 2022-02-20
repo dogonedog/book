@@ -912,7 +912,11 @@ button {
   }
  .link-area {
   justify-content: center;
-}
+ }
+
+ .link-area li:last-child{
+  padding-right: 0px;
+  }
 }
 
 
