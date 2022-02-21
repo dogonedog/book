@@ -203,6 +203,7 @@ h1, h2, #price_box, .page-header {
   width: 16px;
   height: 16px;
   background: url(../images/arrow-right.svg) no-repeat;
+  outline: none;
 }
 
 .slide {
