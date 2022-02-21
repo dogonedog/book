@@ -191,6 +191,10 @@ h1, h2, #price_box, .page-header {
   padding: 16px 0;
 }
 
+.swiper-wrap {
+  outline: none;
+}
+
 #prev {
   margin-right: 0.5rem;
   width: 16px;
@@ -203,7 +207,6 @@ h1, h2, #price_box, .page-header {
   width: 16px;
   height: 16px;
   background: url(../images/arrow-right.svg) no-repeat;
-  outline: none;
 }
 
 .slide {
