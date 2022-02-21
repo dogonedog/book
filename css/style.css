@@ -199,8 +199,12 @@ h1, h2, #price_box, .page-header {
   outline: none;
 }*/
 
+a,a:focus  {
+  outline: none;
+}
+
 a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
   cursor: pointer;
 }
 
