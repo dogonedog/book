@@ -252,18 +252,6 @@ h1, h2, #price_box, .page-header {
   margin: auto;
 }
 
-/* .prev1{
-  display: block;
-  width: 16px;
-  height: 16px;  
-}
-
-.next1{
-  display: block;
-  width: 16px;
-  height: 16px;  
-} */
-
 /* footer */
 
 footer {
@@ -364,7 +352,7 @@ footer, #menu, .breadcrumb, .product-box-right{
   max-width: 80%;
 }
 
-select {
+/*select {
   width: 140px;
   border-bottom: 1px solid #666;
   padding-bottom: 2px;
@@ -402,7 +390,7 @@ select option {
   text-decoration: none;
   background-color: #bbbbbb;
   color: #000;
-}
+}*/
 
 /* menu */
 
@@ -508,7 +496,7 @@ label {
   display: block;
 }
 
-label[for="in"], label[for="d"] {
+/*label[for="in"], label[for="d"] {
   display: inline;
   margin-left: 10px;
 }
@@ -553,14 +541,14 @@ table.order td.center {
 
 .location-map {
   margin-top: 20px;
-}
+}*/
 
 .center {
   margin: 0 aut0;
   text-align: center;
 }
 
-.btn-submit {
+/*.btn-submit {
   background-color: #ccc;
   margin-top: 30px;
   padding: 18px 32px;
@@ -572,7 +560,7 @@ table.order td.center {
 .btn-submit:hover {
   text-decoration: none;
   background-color: #bbbbbb;
-}
+}*/
 
 iframe {
   width: 100%;
