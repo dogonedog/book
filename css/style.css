@@ -191,8 +191,13 @@ h1, h2, #price_box, .page-header {
   padding: 16px 0;
 }
 
-.swiper-wrap {
+.swiper-button-prev, .swiper-button-prev {
   outline: none;
+}
+
+a {
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  cursor:pointer;
 }
 
 #prev {
