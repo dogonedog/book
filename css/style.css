@@ -113,7 +113,6 @@ nav {
 }
 
 .swiper-wrapper {
-    padding-top: 100px;
     padding-bottom: 15px;
 }
 
@@ -192,125 +191,7 @@ h1, h2, #price_box, .page-header {
   padding: 16px 0;
 }
 
-
-
-/* カルーセル */
-
-.carousel-navigation {
-  padding: 0;
-  margin: 20px 0;
-  list-style: none;
-}
-.carousel-navigation > li {
-  display: inline-block;
-}
-
-.carousel-pager {
-  padding: 0;
-  margin: 20px 0;
-  list-style: none;
-}
-
-.carousel-pager > li {
-  display: inline-block;
-  margin: 0 5px;
-}
-.carousel-pager > li > button {
-  appearance: none;
-  border: none;
-  background-color: #999;
-  width: 8px;
-  height: 8px;
-  border-radius: 8px;
-}
-
-.carousel-pager > li > button.isCurrent {
-  background-color: #000;
-}
-
-/* カルーセルボタン */
-.button {
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  -webkit-appearance: none;
-  appearance: none;
-  padding: 8px 16px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-}
-
-button[disabled] {
-  cursor: auto;
-}
-
-/*.carouselButton--prev{
-  width: 16px;
-  height: 16px;
-  background: url(../images/arrow-right.svg) no-repeat;
-}*/
-.carouselButton--prev::before {
-  content: "";
-  display: block;
-  width: 16px;
-  height: 16px;
-  border-top: #000 1px solid;
-  border-right: #000 1px solid;
-  -webkit-transform: rotate(225deg);
-  -ms-transform: rotate(225deg);
-  transform: rotate(225deg);
-  position: absolute;
-  left: 10%;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-/*.carouselButton--next{
-  width: 16px;
-  height: 16px;
-  background: url(../images/arrow-left.svg) no-repeat;
-}*/
-
-.carouselButton--next::after {
-  content: "";
-  display: block;
-  width: 16px;
-  height: 16px;
-  border-top: #000 1px solid;
-  border-right: #000 1px solid;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  position: absolute;
-  right: 10%;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-/* カルーセルTransition*/
-.next-leave-active,
-.prev-leave-active,
-.next-enter-active,
-.prev-enter-active {
-  transition: all 0.3s ease;
-}
-.next-leave-active,
-.prev-leave-active {
-  position: absolute;
-}
-.next-enter-from,
-.prev-leave-to {
-  transform: translateX(-100%);
-}
-
-.prev-enter-from,
-.next-leave-to {
-  transform: translateX(100%);
-}
-
-/* .swiper-button-prev, .swiper-button-next {
+.swiper-button-prev, .swiper-button-next {
   -webkit-touch-callout:none;
   -webkit-tap-highlight-color:rgba(0,0,0,0);
   cursor: pointer;
@@ -367,7 +248,7 @@ button[disabled] {
   top: 0;
   bottom: 0;
   margin: auto;
-}*/
+}
 
 /* footer */
 
@@ -668,18 +549,13 @@ iframe {
 
   /*swiper*/
 
-
-.swiper-wrapper {
-    padding-top: 130px;
-}
-
   .swiper {
     width: 90%;
-    /*padding-bottom: 5%;*/
+    padding-bottom: 5%;
   }
 
   .swiper-wrap {
-    margin-top: 10px;
+    margin-top: 70px;
   }
   :root {
     --swiper-navigation-size: 20px;
