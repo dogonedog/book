@@ -28,7 +28,7 @@ body {
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
+  /*scroll-behavior: smooth;*/
 }
 
 a {
@@ -61,6 +61,7 @@ img {
 nav {
   vertical-align: center;
 }
+
 
 /* ナビバー */
 
@@ -168,10 +169,17 @@ h1, h2, #price_box, .page-header {
 }
 
 /*anchor*/
-
-#web, #illustration, #flash, #pamphlet, #application  {
-  padding-top: 50px;
+/*section {
+    scroll-margin-top: 100px;
 }
+
+#web, #flash, #pamphlet, #application  {
+ padding-top: 50px;
+}
+
+#illustration {
+ padding-top: 70px;
+}*/
 
 /* swiper */
 .slide {
