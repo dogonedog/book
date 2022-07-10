@@ -18,6 +18,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <noscript>
+    <style>
+      .load-fade, .scroll-up {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+      }
+    </style>
+  </noscript>
   </head>
 
 <body>
@@ -41,52 +50,43 @@
     </header>
 
     <div class="container">
-
       <section id="swiper">
-                <div class='swiper-wrap'>
-              <!-- Slider main container -->
-              <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide" id="main_image"><a href="./portfolio_01.html"><img src="images/portfolio_01.jpg"></a></div>
-                  <div class="swiper-slide" id="main_image"><a href="./portfolio_02.html"><img src="images/portfolio_02.jpg"></a></div>
-                  <div class="swiper-slide" id="main_image"><a href="./portfolio_03.html"><img src="images/portfolio_03.jpg"></a></div>
-                  <div class="swiper-slide" id="main_image"><a href="./portfolio_08.html"><img src="images/portfolio_08.jpg"></a></div>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-              
-                <!-- If we need scrollbar -->
-                <!-- <div class="swiper-scrollbar"></div> -->
+        <div class='swiper-wrap load-fade'>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide" id="main_image"><a href="./portfolio_01.html"><img src="images/portfolio_01.jpg"></a></div>
+              <div class="swiper-slide" id="main_image"><a href="./portfolio_02.html"><img src="images/portfolio_02.jpg"></a></div>
+              <div class="swiper-slide" id="main_image"><a href="./portfolio_03.html"><img src="images/portfolio_03.jpg"></a></div>
+              <div class="swiper-slide" id="main_image"><a href="./portfolio_08.html"><img src="images/portfolio_08.jpg"></a></div>
               </div>
-                            
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-              <!-- Swiper END -->
-            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <!-- Swiper END -->
+        </div>
       </section>
-
-
-      
-      <section id="contents">
+  
+      <section id="contents" class="scroll-up">
         <section id="web">
           <h2 class="center">Web</h2>
-            <div class="inner grid">
-              <div class="grid-item"><a href="./portfolio_03.html"><img src="images/kitchen.png"></a></div>
-              <div class="grid-item"><a href="./portfolio_01.html"><img src="images/dogaclub.jpg"></a></div>
-              <div class="grid-item"><a href="./portfolio_02.html"><img src="images/mynavigolf.png"></a></div>
-              <div class="grid-item"><a href="./portfolio_06.html"><img src="images/sentofwoman.jpg"></a></div>
-              <div class="grid-item"><a href="./portfolio_05.html"><img src="images/newsbiz.png"></a></div>
-              <div class="grid-item"><a href="./portfolio_09.html"><img src="images/canhear.png"></a></div>
-              <div class="grid-item"><a href="./portfolio_08.html"><img src="images/aeras.jpg"></a></div>
-            </div>
+          <div class="inner grid">
+            <div class="grid-item"><a href="./portfolio_03.html"><img src="images/kitchen.png"></a></div>
+            <div class="grid-item"><a href="./portfolio_01.html"><img src="images/dogaclub.jpg"></a></div>
+            <div class="grid-item"><a href="./portfolio_02.html"><img src="images/mynavigolf.png"></a></div>
+            <div class="grid-item"><a href="./portfolio_06.html"><img src="images/sentofwoman.jpg"></a></div>
+            <div class="grid-item"><a href="./portfolio_05.html"><img src="images/newsbiz.png"></a></div>
+            <div class="grid-item"><a href="./portfolio_09.html"><img src="images/canhear.png"></a></div>
+            <div class="grid-item"><a href="./portfolio_08.html"><img src="images/aeras.jpg"></a></div>
+          </div>
         </section>
 
-
-        <section id="illustration">
+        <section id="illustration" class="scroll-up">
           <h2 class="center">Illustration</h2>
           <div class="inner grid">
             <div class="grid-item"><a href="./portfolio_10.html"><img src="images/cake.gif" alt="世界弾丸トラベラー"></a></div>
@@ -108,7 +108,7 @@
           </div>
         </section>
 
-        <section id="flash">
+        <section id="flash" class="scroll-up">
           <h2 class="center">Flash</h2>
           <div class="inner grid">
             <div class="grid-item"><a href="./portfolio_26.html"><img src="images/zoomin_flash.png" alt="Zoomin"></a></div>
@@ -116,7 +116,7 @@
           </div>
         </section>
 
-        <section id="pamphlet">
+        <section id="pamphlet" class="scroll-up">
           <h2 class="center">Pamphlet</h2>
           <div class="inner grid">
             <div class="grid-item"><a href="./portfolio_28.html"><img src="images/bayside_p_s.jpg" alt="BaysideEnglish"></a></div>
@@ -151,14 +151,7 @@
     <p class="copyright">
       <small>&copy;2021 Megumi</small>
     </p>
-      <!-- <i class="fab fa-twitter fa-1x"></i>
-      <ul class="sns-area">
-        <li><i class="fab fa-instagram"></i></li>
-        <li><i class="fab fa-facebook fa-1x"></i></li>
-        <li><i class="fab fa-twitter fa-1x"></i></li>
-      </ul> -->
     </div><!-- #footer -->
-
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
