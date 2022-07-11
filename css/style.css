@@ -28,7 +28,7 @@ body {
 
 html {
   font-size: 62.5%;
-  /*scroll-behavior: smooth;*/
+  /**/scroll-behavior: smooth;
 }
 
 a {
@@ -168,9 +168,10 @@ h1, h2, #price_box, .page-header {
   display: none;
 }
 
-#web {
+#web{
  padding-top: 50px;
 }
+
 
 /* swiper */
 .slide {
