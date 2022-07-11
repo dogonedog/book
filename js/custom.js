@@ -58,6 +58,7 @@ $(function () {
 	});
 });
 
+
 $(function () {
     // 別ページの場合は以下
   var urlHash = location.hash;
@@ -72,6 +73,7 @@ $(function () {
   }, 100);
 }
 });
+
 
 window.history.replaceState(null, '', location.pathname + location.search);
 
@@ -103,3 +105,6 @@ function scroll_effect() {
   }
 }
 window.addEventListener('scroll', scroll_effect); // スクロール時に実行
+
+
+
