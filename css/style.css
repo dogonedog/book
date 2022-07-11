@@ -168,10 +168,9 @@ h1, h2, #price_box, .page-header {
   display: none;
 }
 
-#web{
- padding-top: 50px;
+#web, #illustration, #flash, #application, #pamphlet{
+ margin-top: 50px;
 }
-
 
 /* swiper */
 .slide {
