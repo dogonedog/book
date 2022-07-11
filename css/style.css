@@ -90,6 +90,11 @@ nav {
   padding-top: 50%;
 }
 
+
+#web{
+ padding-top: 50px;
+}
+
 #wrapper {
   margin: 0 auto;
   padding-top: 100px;
@@ -166,10 +171,6 @@ h1, h2, #price_box, .page-header {
 
 .d-hidden {
   display: none;
-}
-
-#web, #illustration, #flash, #application, #pamphlet{
- margin-top: 50px;
 }
 
 /* swiper */
@@ -713,6 +714,10 @@ iframe {
     gap: 26px;
     grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
   }
+
+#illustration, #flash, #application, #pamphlet{
+ margin-top: 50px;
+}
 
   #pamphlet .grid-item img, #application .grid-item img{
   max-width: 50%;
